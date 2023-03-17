@@ -22,7 +22,7 @@ export default function Header({ searchText, changeSearch }) {
       <Bubbles />
       <div className='relative z-10'>
         <div className="text-3xl">
-        <svg className="inline-block fill-current h-10 w-auto mr-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Your_design" x="0px" y="0px" viewBox="0 0 4502.5 594.8" style="enable-background:new 0 0 4502.5 594.8;" xml:space="preserve">
+        <svg className="inline-block fill-current h-10 w-auto mr-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Your_design" x="0px" y="0px" viewBox="0 0 4502.5 594.8" style="enable-background:new 0 0 4502.5 594.8;">
 
 <g>
 	<path className="st0" d="M850.1,97h79.7v400.8h-79.7V97z"></path>
