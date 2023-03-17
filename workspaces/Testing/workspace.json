@@ -1,0 +1,25 @@
+{
+  "description": "This is a base image",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "lsio.svg",
+  "name": "linuxserver/baseimage-kasmvnc:alpine317",
+  "run_config": {
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {},
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Testing",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatability": [
+    "1.13.x"
+  ],
+  "uncompressed_size": "912 MB"
+}
