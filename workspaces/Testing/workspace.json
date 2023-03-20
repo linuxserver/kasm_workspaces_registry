@@ -2,7 +2,7 @@
   "description": "This is a base image",
   "docker_registry": "https://ghcr.io/",
   "image_src": "lsio.svg",
-  "name": "linuxserver/baseimage-kasmvnc:alpine317",
+  "name": "lscr.io/linuxserver/webtop:debian-kde",
   "run_config": {
     "entrypoint": [
       "/kasminit"
