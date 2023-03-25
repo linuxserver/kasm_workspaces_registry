@@ -1,7 +1,7 @@
 {
   "description": "Debian with the MATE desktop environemnt.",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "lsio.svg",
+  "image_src": "debian-mate.png",
   "name": "lscr.io/linuxserver/webtop:debian-mate",
   "run_config": {
     "entrypoint": [
