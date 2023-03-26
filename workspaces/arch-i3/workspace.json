@@ -1,7 +1,7 @@
 {
   "description": "Arch with the i3 desktop environment.",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "lsio.svg",
+  "image_src": "arch-i3.png",
   "name": "lspipepr/webtop:arch-i3-325c4e8f-pkg-325c4e8f-pr-119",
   "run_config": {
     "entrypoint": [

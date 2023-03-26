@@ -1,7 +1,7 @@
 {
   "description": "Arch with the XFCE desktop environment.",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "lsio.svg",
+  "image_src": "arch-xfce.png",
   "name": "lspipepr/webtop:arch-xfce-bb359cd2-pkg-bb359cd2-pr-124",
   "run_config": {
     "entrypoint": [
