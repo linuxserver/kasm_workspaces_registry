@@ -1,7 +1,7 @@
 {
   "description": "Debian with the Openbox desktop environment.",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "lsio.svg",
+  "image_src": "debian-openbox.png",
   "name": "lscr.io/linuxserver/webtop:debian-openbox",
   "run_config": {
     "entrypoint": [

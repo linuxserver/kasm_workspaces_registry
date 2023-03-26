@@ -1,7 +1,7 @@
 {
   "description": "Debian with the XFCE desktop environment.",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "lsio.svg",
+  "image_src": "debian-xfce.png",
   "name": "lscr.io/linuxserver/webtop:debian-xfce",
   "run_config": {
     "entrypoint": [
