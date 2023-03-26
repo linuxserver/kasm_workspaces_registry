@@ -1,7 +1,7 @@
 {
-  "description": "Mysql Workbench",
+  "description": "MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "lsio.svg",
+  "image_src": "mysql-workbench.png",
   "name": "lspipepr/mysql-workbench:8.0.32-pkg-7de5be3c-pr-13",
   "run_config": {
     "entrypoint": [
@@ -11,15 +11,14 @@
   },
   "exec_config": {},
   "categories": [
-    "Browser"
+    "Development"
   ],
   "friendly_name": "Mysql Workbench",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
     "1.13.x"
   ],
-  "uncompressed_size": "1640 MB"
+  "uncompressed_size": "1610 MB"
 }

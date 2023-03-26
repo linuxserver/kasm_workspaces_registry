@@ -1,7 +1,7 @@
 {
-  "description": "Blender",
+  "description": "Blender is a free and open-source 3D computer graphics software tool set used for creating animated films, visual effects, art, 3D-printed models, motion graphics, interactive 3D applications, and virtual reality.",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "lsio.svg",
+  "image_src": "blender.png",
   "name": "lspipepr/blender:3.4.1-pkg-34808194-pr-7",
   "run_config": {
     "entrypoint": [
@@ -11,7 +11,7 @@
   },
   "exec_config": {},
   "categories": [
-    "Browser"
+    "Multimedia"
   ],
   "friendly_name": "Blender",
   "architecture": [
@@ -21,5 +21,5 @@
   "compatibility": [
     "1.13.x"
   ],
-  "uncompressed_size": "1640 MB"
+  "uncompressed_size": "2280 MB"
 }
