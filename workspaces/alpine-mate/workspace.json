@@ -1,7 +1,7 @@
 {
   "description": "Alpine with the MATE desktop environment.",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "lsio.svg",
+  "image_src": "alpine-mate.png",
   "name": "lspipepr/webtop:alpine-mate-7d0e45a8-pkg-7d0e45a8-pr-117",
   "run_config": {
     "entrypoint": [
