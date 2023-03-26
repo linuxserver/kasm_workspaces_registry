@@ -1,0 +1,25 @@
+{
+  "description": "Digikam",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "lsio.svg",
+  "name": "lspipepr/digikam:2023-03-24-pkg-aa04cceb-pr-35",
+  "run_config": {
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {},
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Digikam",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x"
+  ],
+  "uncompressed_size": "1640 MB"
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Fedora with the i3 desktop environment.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "lsio.svg",
+  "name": "lspipepr/webtop:fedora-i3-ba8ddbe4-pkg-ba8ddbe4-pr-125",
+  "run_config": {
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {},
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Fedora i3",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x"
+  ],
+  "uncompressed_size": "1640 MB"
+}

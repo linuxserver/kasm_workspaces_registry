@@ -1,0 +1,25 @@
+{
+  "description": "Remmina",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "lsio.svg",
+  "name": "lspipepr/remmina:1.4.2dfsg-1ubuntu1-pkg-e117488c-pr-6",
+  "run_config": {
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {},
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Remmina",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x"
+  ],
+  "uncompressed_size": "1640 MB"
+}

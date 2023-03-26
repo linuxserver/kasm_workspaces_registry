@@ -1,0 +1,25 @@
+{
+  "description": "Libreoffice",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "lsio.svg",
+  "name": "lspipepr/libreoffice:7.3.7.2-r0-pkg-36e60ff5-pr-7",
+  "run_config": {
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {},
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Libreoffice",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x"
+  ],
+  "uncompressed_size": "1640 MB"
+}
