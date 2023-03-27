@@ -1,7 +1,7 @@
 {
   "description": "Fedora with the XFCE desktop environment.",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "lsio.svg",
+  "image_src": "fedora-xfce.png",
   "name": "lspipepr/webtop:fedora-xfce-3c8f1672-pkg-3c8f1672-pr-130",
   "run_config": {
     "entrypoint": [

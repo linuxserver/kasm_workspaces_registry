@@ -1,7 +1,7 @@
 {
   "description": "Fedora with the MATE desktop environment.",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "lsio.svg",
+  "image_src": "fedora-mate.png",
   "name": "lspipepr/webtop:fedora-mate-6e077e07-pkg-6e077e07-pr-128",
   "run_config": {
     "entrypoint": [

@@ -1,7 +1,7 @@
 {
   "description": "Fedora with the i3 desktop environment.",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "lsio.svg",
+  "image_src": "fedora-i3.png",
   "name": "lspipepr/webtop:fedora-i3-ba8ddbe4-pkg-ba8ddbe4-pr-125",
   "run_config": {
     "entrypoint": [
