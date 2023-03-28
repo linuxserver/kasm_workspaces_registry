@@ -21,5 +21,5 @@
   "compatibility": [
     "1.13.x"
   ],
-  "uncompressed_size": "2280 MB"
+  "uncompressed_size_mb": 2280 
 }
