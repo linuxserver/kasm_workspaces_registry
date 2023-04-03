@@ -4,6 +4,7 @@
   "image_src": "digikam.png",
   "name": "lspipepr/digikam:2023-03-24-pkg-aa04cceb-pr-35",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

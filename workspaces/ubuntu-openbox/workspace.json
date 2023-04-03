@@ -4,6 +4,7 @@
   "image_src": "ubuntu-openbox.png",
   "name": "lspipepr/webtop:ubuntu-openbox-ac9a5913-pkg-ac9a5913-pr-135",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

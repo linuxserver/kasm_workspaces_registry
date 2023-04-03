@@ -4,6 +4,7 @@
   "image_src": "arch-mate.png",
   "name": "lspipepr/webtop:arch-mate-01a72ad5-pkg-01a72ad5-pr-122",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

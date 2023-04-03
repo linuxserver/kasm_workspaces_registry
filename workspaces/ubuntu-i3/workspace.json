@@ -4,6 +4,7 @@
   "image_src": "ubuntu-i3.png",
   "name": "lspipepr/webtop:ubuntu-i3-8ebfea25-pkg-8ebfea25-pr-131",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

@@ -4,6 +4,7 @@
   "image_src": "qdirstat.png",
   "name": "lspipepr/qdirstat:1.8.1-pkg-857dc13c-pr-9",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

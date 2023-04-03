@@ -4,6 +4,7 @@
   "image_src": "blender.png",
   "name": "lspipepr/blender:3.4.1-pkg-34808194-pr-7",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

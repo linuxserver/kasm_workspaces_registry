@@ -4,6 +4,7 @@
   "image_src": "ubuntu-xfce.png",
   "name": "lspipepr/webtop:ubuntu-xfce-55d853c4-pkg-55d853c4-pr-136",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

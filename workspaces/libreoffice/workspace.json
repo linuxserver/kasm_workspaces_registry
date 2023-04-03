@@ -4,6 +4,7 @@
   "image_src": "libreoffice.png",
   "name": "lspipepr/libreoffice:7.3.7.2-r0-pkg-36e60ff5-pr-7",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

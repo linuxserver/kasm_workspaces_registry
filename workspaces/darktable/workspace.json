@@ -4,6 +4,7 @@
   "image_src": "darktable.png",
   "name": "lspipepr/darktable:4.0.1-r2-pkg-aee065d1-pr-8",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

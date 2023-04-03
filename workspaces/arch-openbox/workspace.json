@@ -4,6 +4,7 @@
   "image_src": "arch-openbox.png",
   "name": "lspipepr/webtop:arch-openbox-08781425-pkg-08781425-pr-123",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

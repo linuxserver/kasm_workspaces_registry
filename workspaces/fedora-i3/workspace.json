@@ -4,6 +4,7 @@
   "image_src": "fedora-i3.png",
   "name": "lspipepr/webtop:fedora-i3-ba8ddbe4-pkg-ba8ddbe4-pr-125",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

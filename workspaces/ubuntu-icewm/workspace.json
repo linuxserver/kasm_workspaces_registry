@@ -4,6 +4,7 @@
   "image_src": "ubuntu-icewm.png",
   "name": "lspipepr/webtop:ubuntu-icewm-34a22958-pkg-34a22958-pr-132",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

@@ -4,6 +4,7 @@
   "image_src": "doublecommander.png",
   "name": "lspipepr/doublecommander:295aea49-pkg-295aea49-pr-15",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

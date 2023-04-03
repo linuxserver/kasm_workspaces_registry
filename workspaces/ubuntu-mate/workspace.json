@@ -4,6 +4,7 @@
   "image_src": "ubuntu-mate.png",
   "name": "lspipepr/webtop:ubuntu-mate-1e9e876c-pkg-1e9e876c-pr-134",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

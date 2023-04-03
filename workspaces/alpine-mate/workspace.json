@@ -4,6 +4,7 @@
   "image_src": "alpine-mate.png",
   "name": "lspipepr/webtop:alpine-mate-7d0e45a8-pkg-7d0e45a8-pr-117",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

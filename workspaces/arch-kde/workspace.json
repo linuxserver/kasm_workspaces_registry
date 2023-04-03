@@ -4,6 +4,7 @@
   "image_src": "arch-kde.png",
   "name": "lspipepr/webtop:arch-kde-b29ad063-pkg-b29ad063-pr-121",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

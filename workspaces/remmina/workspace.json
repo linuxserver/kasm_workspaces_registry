@@ -4,6 +4,7 @@
   "image_src": "remmina.png",
   "name": "lspipepr/remmina:1.4.2dfsg-1ubuntu1-pkg-e117488c-pr-6",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

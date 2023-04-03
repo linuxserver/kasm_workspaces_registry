@@ -4,6 +4,7 @@
   "image_src": "fedora-kde.png",
   "name": "lspipepr/webtop:fedora-kde-6fd6be25-pkg-6fd6be25-pr-127",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

@@ -4,6 +4,7 @@
   "image_src": "fedora-openbox.png",
   "name": "lspipepr/webtop:fedora-openbox-ea1ee073-pkg-ea1ee073-pr-129",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

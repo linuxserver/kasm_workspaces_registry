@@ -4,6 +4,7 @@
   "image_src": "sqlitebrowser.png",
   "name": "lspipepr/sqlitebrowser:3.12.2-r3-pkg-627a3aef-pr-6",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

@@ -4,6 +4,7 @@
   "image_src": "alpine-i3.png",
   "name": "lspipepr/webtop:alpine-i3-f22e67ba-pkg-f22e67ba-pr-114",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

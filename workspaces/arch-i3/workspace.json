@@ -4,6 +4,7 @@
   "image_src": "arch-i3.png",
   "name": "lspipepr/webtop:arch-i3-325c4e8f-pkg-325c4e8f-pr-119",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

@@ -4,6 +4,7 @@
   "image_src": "pidgin.png",
   "name": "lspipepr/pidgin:2.14.10-r0-pkg-5ca54aa9-pr-5",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

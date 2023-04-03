@@ -4,6 +4,7 @@
   "image_src": "alpine-icewm.png",
   "name": "lspipepr/webtop:alpine-icewm-7f2e0f66-pkg-7f2e0f66-pr-115",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

@@ -4,6 +4,7 @@
   "image_src": "kdenlive.png",
   "name": "lspipepr/kdenlive:421.12.3-0ubuntu1-pkg-1b11168f-pr-11",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

@@ -4,6 +4,7 @@
   "image_src": "arch-xfce.png",
   "name": "lspipepr/webtop:arch-xfce-bb359cd2-pkg-bb359cd2-pr-124",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

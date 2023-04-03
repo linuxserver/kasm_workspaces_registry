@@ -4,6 +4,7 @@
   "image_src": "alpine-kde.png",
   "name": "lspipepr/webtop:alpine-kde-7667cebc-pkg-7667cebc-pr-116",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

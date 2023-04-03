@@ -4,6 +4,7 @@
   "image_src": "chromium.png",
   "name": "lscr.io/linuxserver/chromium:latest",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

@@ -4,6 +4,7 @@
   "image_src": "alpine-openbox.png",
   "name": "lspipepr/webtop:alpine-openbox-e3d433a3-pkg-e3d433a3-pr-118",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

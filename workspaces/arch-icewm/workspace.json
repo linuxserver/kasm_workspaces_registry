@@ -4,6 +4,7 @@
   "image_src": "arch-icewm.png",
   "name": "lspipepr/webtop:arch-icewm-70312255-pkg-70312255-pr-120",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

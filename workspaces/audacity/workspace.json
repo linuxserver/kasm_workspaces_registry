@@ -4,6 +4,7 @@
   "image_src": "audacity.png",
   "name": "lspipepr/audacity:3.2.5-pkg-ccbfeb80-pr-7",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

@@ -4,6 +4,7 @@
   "image_src": "ubuntu-kde.png",
   "name": "lspipepr/webtop:ubuntu-kde-c8bf05b8-pkg-c8bf05b8-pr-133",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

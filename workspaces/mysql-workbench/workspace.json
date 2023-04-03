@@ -4,6 +4,7 @@
   "image_src": "mysql-workbench.png",
   "name": "lspipepr/mysql-workbench:8.0.32-pkg-7de5be3c-pr-13",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

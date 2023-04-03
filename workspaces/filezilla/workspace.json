@@ -4,6 +4,7 @@
   "image_src": "filezilla.png",
   "name": "lspipepr/filezilla:3.62.1-r0-pkg-66871bd8-pr-11",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

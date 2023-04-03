@@ -4,6 +4,7 @@
   "image_src": "boinc.png",
   "name": "lspipepr/boinc:7.20.5dfsg202212021500ubuntu22.04.1-pkg-64876165-pr-19",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

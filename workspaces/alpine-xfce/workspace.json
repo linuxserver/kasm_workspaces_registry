@@ -4,6 +4,7 @@
   "image_src": "alpine-xfce.png",
   "name": "lspipepr/webtop:47063db7-pkg-47063db7-pr-113",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

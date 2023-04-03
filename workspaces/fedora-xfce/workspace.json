@@ -4,6 +4,7 @@
   "image_src": "fedora-xfce.png",
   "name": "lspipepr/webtop:fedora-xfce-3c8f1672-pkg-3c8f1672-pr-130",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

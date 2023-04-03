@@ -4,6 +4,7 @@
   "image_src": "wireshark.png",
   "name": "lspipepr/wireshark:4.0.1-r0-pkg-f295e7e2-pr-13",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

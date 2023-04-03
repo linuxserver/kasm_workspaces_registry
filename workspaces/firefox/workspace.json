@@ -4,6 +4,7 @@
   "image_src": "firefox.png",
   "name": "lsiodev/firefox:109.0.1-r0-pkg-d7adf609-dev-3253de51d6a1ce2df2e0808259b8a18511587287",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],
