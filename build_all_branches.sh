@@ -10,15 +10,18 @@ touch base/.nojekyll
 
 # Generating documentation for each other branch in a subdirectory
 for BRANCH in $(git branch --remotes --format '%(refname:lstrip=3)' | grep -Ev '^(HEAD|develop|gh-pages)$'); do
-    echo "$BRANCH" >> base/versions.txt
+    SANITIZED_BRANCH="$(echo $BRANCH | sed 's/\//_/g')"
+    echo "$SANITIZED_BRANCH" >> base/versions.txt
     git checkout $BRANCH
     node processing
     cp -a public/. process
+    sed -i "s/1.0/$SANITIZED_BRANCH/" site/next.config.js
     npm run deploy --prefix site
     cp -a process/. public/ # Have to run it again because the deploy wipes the file and folders out
     rm -rf process
-    mv public base/$BRANCH
-    cp base/$BRANCH/favicon.ico base/favicon.ico
+    sed -i "s/$SANITIZED_BRANCH/1.0/" site/next.config.js # Set it back to 1.0 so it can be changed again on the next loop
+    mv public base/$SANITIZED_BRANCH
+    cp base/$SANITIZED_BRANCH/favicon.ico base/favicon.ico
 done
 
 mv base public
