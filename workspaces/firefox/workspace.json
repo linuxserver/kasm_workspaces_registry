@@ -2,7 +2,7 @@
   "description": "Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "firefox.png",
-  "name": "lsiodev/firefox:109.0.1-r0-pkg-d7adf609-dev-3253de51d6a1ce2df2e0808259b8a18511587287",
+  "name": "lspipepr/firefox:109.0.1-r0-pkg-d7adf609-pr-18",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

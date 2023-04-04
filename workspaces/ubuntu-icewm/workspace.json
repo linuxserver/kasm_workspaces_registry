@@ -2,7 +2,7 @@
   "description": "Ubuntu with the IceWM desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "ubuntu-icewm.png",
-  "name": "lspipepr/webtop:ubuntu-icewm-34a22958-pkg-34a22958-pr-132",
+  "name": "lspipepr/webtop:ubuntu-icewm-21cc7c55-pkg-21cc7c55-pr-132",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

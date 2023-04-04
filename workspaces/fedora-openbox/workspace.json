@@ -2,7 +2,7 @@
   "description": "Fedora with the Openbox desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "fedora-openbox.png",
-  "name": "lspipepr/webtop:fedora-openbox-ea1ee073-pkg-ea1ee073-pr-129",
+  "name": "lspipepr/webtop:fedora-openbox-e969e641-pkg-e969e641-pr-129",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

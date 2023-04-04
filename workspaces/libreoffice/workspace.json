@@ -2,7 +2,7 @@
   "description": "LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "libreoffice.png",
-  "name": "lspipepr/libreoffice:7.3.7.2-r0-pkg-36e60ff5-pr-7",
+  "name": "lspipepr/libreoffice:7.3.7.2-r0-pkg-623559a5-pr-7",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

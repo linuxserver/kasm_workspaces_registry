@@ -2,7 +2,7 @@
   "description": "Audacity is an easy-to-use, multi-track audio editor and recorder.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "audacity.png",
-  "name": "lspipepr/audacity:3.2.5-pkg-ccbfeb80-pr-7",
+  "name": "lspipepr/audacity:3.2.5-pkg-f6d9471f-pr-7",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

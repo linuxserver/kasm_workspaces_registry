@@ -2,7 +2,7 @@
   "description": "Alpine with the i3 desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "alpine-i3.png",
-  "name": "lspipepr/webtop:alpine-i3-f22e67ba-pkg-f22e67ba-pr-114",
+  "name": "lspipepr/webtop:alpine-i3-ef5b4e9a-pkg-ef5b4e9a-pr-114",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

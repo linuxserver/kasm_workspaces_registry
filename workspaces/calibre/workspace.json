@@ -2,7 +2,7 @@
   "description": "Calibre is a powerful and easy to use e-book manager.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "calibre.png",
-  "name": "lspipepr/calibre:v6.14.1-pkg-eea161dd-pr-122",
+  "name": "lspipepr/calibre:v6.14.1-pkg-3d058ce5-pr-122",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

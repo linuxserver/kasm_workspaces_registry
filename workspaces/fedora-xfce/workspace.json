@@ -2,7 +2,7 @@
   "description": "Fedora with the XFCE desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "fedora-xfce.png",
-  "name": "lspipepr/webtop:fedora-xfce-3c8f1672-pkg-3c8f1672-pr-130",
+  "name": "lspipepr/webtop:fedora-xfce-42b33adb-pkg-42b33adb-pr-130",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

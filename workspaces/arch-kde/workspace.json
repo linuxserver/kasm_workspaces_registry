@@ -2,7 +2,7 @@
   "description": "Arch with the KDE desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "arch-kde.png",
-  "name": "lspipepr/webtop:arch-kde-b29ad063-pkg-b29ad063-pr-121",
+  "name": "lspipepr/webtop:arch-kde-45359050-pkg-45359050-pr-121",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
