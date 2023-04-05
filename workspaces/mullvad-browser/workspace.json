@@ -1,0 +1,25 @@
+{
+  "description": "Mullvad Browser is a privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "mullvad-browser.png",
+  "name": "lscr.io/linuxserver/mullvad-browser:latest",
+  "run_config": {
+    "security_opt": ["seccomp=unconfined"],
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {},
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Mullvad Browser",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.13.x"
+  ],
+  "uncompressed_size_mb": 2220 
+}
