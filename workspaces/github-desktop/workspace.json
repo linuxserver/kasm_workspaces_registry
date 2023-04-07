@@ -2,7 +2,7 @@
   "description": "Github Desktop is an open source Electron-based GitHub app. It is written in TypeScript and uses React.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "github-desktop.png",
-  "name": "lspipepr/github-desktop:release-3.2.0-linux1-pkg-none-pr-1",
+  "name": "lscr.io/linuxserver/github-desktop:latest",
   "run_config": {
     "entrypoint": [
       "/kasminit"

@@ -2,7 +2,7 @@
   "description": "Ubuntu with the Openbox desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "ubuntu-openbox.png",
-  "name": "lspipepr/webtop:ubuntu-openbox-cbda2440-pkg-cbda2440-pr-135",
+  "name": "lscr.io/linuxserver/webtop:ubuntu-openbox",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

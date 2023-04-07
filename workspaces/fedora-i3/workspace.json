@@ -2,7 +2,7 @@
   "description": "Fedora with the i3 desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "fedora-i3.png",
-  "name": "lspipepr/webtop:fedora-i3-c8d34925-pkg-c8d34925-pr-125",
+  "name": "lscr.io/linuxserver/webtop:fedora-i3",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

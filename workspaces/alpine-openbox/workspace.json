@@ -2,7 +2,7 @@
   "description": "Alpine with the Openbox desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "alpine-openbox.png",
-  "name": "lspipepr/webtop:alpine-openbox-9bff94aa-pkg-9bff94aa-pr-118",
+  "name": "lscr.io/linuxserver/webtop:alpine-openbox",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

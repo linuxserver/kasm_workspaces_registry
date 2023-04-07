@@ -2,7 +2,7 @@
   "description": "QDirStat - Qt-based directory statistics.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "qdirstat.png",
-  "name": "lspipepr/qdirstat:1.8.1-pkg-eeac47bd-pr-9",
+  "name": "lscr.io/linuxserver/qdirstat:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

@@ -2,7 +2,7 @@
   "description": "Arch with the MATE desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "arch-mate.png",
-  "name": "lspipepr/webtop:arch-mate-01a72ad5-pkg-01a72ad5-pr-122",
+  "name": "lscr.io/linuxserver/webtop:arch-mate",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

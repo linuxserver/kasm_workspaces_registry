@@ -2,7 +2,7 @@
   "description": "digiKam a professional Photo Management with the Power of Open Source.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "digikam.png",
-  "name": "lspipepr/digikam:2023-03-24-pkg-aa04cceb-pr-35",
+  "name": "lscr.io/linuxserver/digikam:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

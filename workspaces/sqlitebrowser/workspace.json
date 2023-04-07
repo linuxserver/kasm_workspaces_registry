@@ -2,7 +2,7 @@
   "description": "DB Browser for SQLite (DB4S) is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "sqlitebrowser.png",
-  "name": "lspipepr/sqlitebrowser:3.12.2-r3-pkg-627a3aef-pr-6",
+  "name": "lscr.io/linuxserver/sqlitebrowser:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

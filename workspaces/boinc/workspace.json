@@ -2,7 +2,7 @@
   "description": "BOINC lets you help cutting-edge science research using your computer. The BOINC app, running on your computer, downloads scientific computing jobs and runs them invisibly in the background. It's easy and safe.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "boinc.png",
-  "name": "lspipepr/boinc:7.20.5dfsg202212021500ubuntu22.04.1-pkg-97344200-pr-19",
+  "name": "lscr.io/linuxserver/boinc:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

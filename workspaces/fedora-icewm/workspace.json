@@ -2,7 +2,7 @@
   "description": "Feodora with the IceWM desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "fedora-icewm.png",
-  "name": "lspipepr/webtop:fedora-icewm-74f4c082-pkg-74f4c082-pr-126",
+  "name": "lscr.io/linuxserver/webtop:fedora-icewm",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

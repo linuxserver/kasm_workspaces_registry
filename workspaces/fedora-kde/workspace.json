@@ -2,7 +2,7 @@
   "description": "Fedora with the KDE desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "fedora-kde.png",
-  "name": "lspipepr/webtop:fedora-kde-6fd6be25-pkg-6fd6be25-pr-127",
+  "name": "lscr.io/linuxserver/webtop:fedora-kde",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

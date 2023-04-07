@@ -2,7 +2,7 @@
   "description": "Ubuntu with the KDE desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "ubuntu-kde.png",
-  "name": "lspipepr/webtop:ubuntu-kde-2d449fee-pkg-2d449fee-pr-133",
+  "name": "lscr.io/linuxserver/webtop:ubuntu-kde",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

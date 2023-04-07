@@ -2,7 +2,7 @@
   "description": "Remmina is a remote desktop client for POSIX-based computer operating systems. It supports the Remote Desktop Protocol (RDP), VNC, NX, XDMCP, SPICE, X2Go and SSH protocols and uses FreeRDP as foundation.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "remmina.png",
-  "name": "lspipepr/remmina:1.4.2dfsg-1ubuntu1-pkg-e117488c-pr-6",
+  "name": "lscr.io/linuxserver/remmina:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

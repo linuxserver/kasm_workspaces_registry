@@ -2,7 +2,7 @@
   "description": "Arch with the IceWM desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "arch-icewm.png",
-  "name": "lspipepr/webtop:arch-icewm-5d79f12b-pkg-5d79f12b-pr-120",
+  "name": "lscr.io/linuxserver/webtop:arch-icewm",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

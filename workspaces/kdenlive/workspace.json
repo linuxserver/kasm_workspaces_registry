@@ -2,7 +2,7 @@
   "description": "Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "kdenlive.png",
-  "name": "lspipepr/kdenlive:421.12.3-0ubuntu1-pkg-1b11168f-pr-11",
+  "name": "lscr.io/linuxserver/kdenlive:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

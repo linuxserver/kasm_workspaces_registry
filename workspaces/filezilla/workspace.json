@@ -2,7 +2,7 @@
   "description": "The FileZilla Client not only supports FTP, but also FTP over TLS (FTPS) and SFTP. It is open source software distributed free of charge under the terms of the GNU General Public License.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "filezilla.png",
-  "name": "lspipepr/filezilla:3.62.1-r0-pkg-66871bd8-pr-11",
+  "name": "lscr.io/linuxserver/filezilla:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

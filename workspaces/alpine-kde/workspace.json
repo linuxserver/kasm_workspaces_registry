@@ -2,7 +2,7 @@
   "description": "Alpine with the KDE desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "alpine-kde.png",
-  "name": "lspipepr/webtop:alpine-kde-d799ae2b-pkg-d799ae2b-pr-116",
+  "name": "lscr.io/linuxserver/webtop:alpine-kde",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

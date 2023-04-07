@@ -2,7 +2,7 @@
   "description": "Double Commander is a free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features new ideas.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "doublecommander.png",
-  "name": "lspipepr/doublecommander:295aea49-pkg-295aea49-pr-15",
+  "name": "lscr.io/linuxserver/doublecommander:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

@@ -2,7 +2,7 @@
   "description": "Ubuntu with the i3 desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "ubuntu-i3.png",
-  "name": "lspipepr/webtop:ubuntu-i3-68f2ddb1-pkg-68f2ddb1-pr-131",
+  "name": "lscr.io/linuxserver/webtop:ubuntu-i3",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

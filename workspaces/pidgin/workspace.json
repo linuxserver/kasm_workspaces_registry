@@ -2,7 +2,7 @@
   "description": "Pidgin is a chat program which lets you log into accounts on multiple chat networks simultaneously.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "pidgin.png",
-  "name": "lspipepr/pidgin:2.14.10-r0-pkg-5ca54aa9-pr-5",
+  "name": "lscr.io/linuxserver/pidgin:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

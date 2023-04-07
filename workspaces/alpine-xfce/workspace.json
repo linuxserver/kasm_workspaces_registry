@@ -2,7 +2,7 @@
   "description": "Alpine with the XFCE desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "alpine-xfce.png",
-  "name": "lspipepr/webtop:becebba7-pkg-becebba7-pr-113",
+  "name": "lscr.io/linuxserver/webtop:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

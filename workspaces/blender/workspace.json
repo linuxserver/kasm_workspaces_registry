@@ -2,7 +2,7 @@
   "description": "Blender is a free and open-source 3D computer graphics software tool set used for creating animated films, visual effects, art, 3D-printed models, motion graphics, interactive 3D applications, and virtual reality.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "blender.png",
-  "name": "lspipepr/blender:3.4.1-pkg-34808194-pr-7",
+  "name": "lscr.io/linuxserver/blender:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

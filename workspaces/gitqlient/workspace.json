@@ -2,7 +2,7 @@
   "description": "GitQlient is a multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "gitqlient.png",
-  "name": "lspipepr/gitqlient:amd64-v1.6.1-pkg-none-pr-1",
+  "name": "lscr.io/linuxserver/gitqlient:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

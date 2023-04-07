@@ -2,7 +2,7 @@
   "description": "Ubuntu with the XFCE desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "ubuntu-xfce.png",
-  "name": "lspipepr/webtop:ubuntu-xfce-15f4ce06-pkg-15f4ce06-pr-136",
+  "name": "lscr.io/linuxserver/webtop:ubuntu-xfce",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

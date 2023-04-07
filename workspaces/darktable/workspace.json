@@ -2,7 +2,7 @@
   "description": "Darktable is an open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "darktable.png",
-  "name": "lspipepr/darktable:4.0.1-r2-pkg-aee065d1-pr-8",
+  "name": "lscr.io/linuxserver/darktable:latest",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [

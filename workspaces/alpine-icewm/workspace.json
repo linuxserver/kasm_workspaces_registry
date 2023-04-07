@@ -2,7 +2,7 @@
   "description": "Alpine with the IceWM desktop environment.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "alpine-icewm.png",
-  "name": "lspipepr/webtop:alpine-icewm-4d14a22d-pkg-4d14a22d-pr-115",
+  "name": "lscr.io/linuxserver/webtop:alpine-icewm",
   "run_config": {
     "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
