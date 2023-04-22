@@ -1,0 +1,7 @@
+kali purple convert from a vmware
+This project I/We will be using QEMU to convert the kali_purple.vdhd 
+# this is an image you would create using vmware as the building platform for the kali purple iso 
+to create an instance of kali with your own user name ect 
+now as you may know kali has just released a new iso kali purple this new iso has five amazing tool sets for you to learn dev explore
+Note that Im using windows 11 with vmware workstation 16 and the cmd`s are keyd for wsl2 kali 
+I built the image I then converted the image to a raw image Using Qemu I then packed it in to a .tar file the cmds fo this will be below as well as the pruducts of this process  
