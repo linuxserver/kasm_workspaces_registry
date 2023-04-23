@@ -1,0 +1,25 @@
+{
+  "description": "WebCord is and electron wrapper for Discord with a pack of security and privacy hardenings.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "webcord.png",
+  "name": "lscr.io/linuxserver/webcord:latest",
+  "run_config": {
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {},
+  "categories": [
+    "Communication"
+  ],
+  "friendly_name": "WebCord",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x"
+  ],
+  "uncompressed_size_mb": 1970
+}

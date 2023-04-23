@@ -1,0 +1,24 @@
+{
+  "description": "WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "wps-office.png",
+  "name": "lscr.io/linuxserver/wps-office:latest",
+  "run_config": {
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {},
+  "categories": [
+    "Productivity"
+  ],
+  "friendly_name": "WPS Office",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.13.x"
+  ],
+  "uncompressed_size_mb": 3350
+}
