@@ -1,0 +1,24 @@
+{
+  "description": "Opera is a multi-platform web browser developed by its namesake company Opera.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "opera.png",
+  "name": "lscr.io/linuxserver/opera:latest",
+  "run_config": {
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {},
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Opera",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.13.x"
+  ],
+  "uncompressed_size_mb": 1790
+}
