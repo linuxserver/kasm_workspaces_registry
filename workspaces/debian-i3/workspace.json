@@ -4,6 +4,7 @@
   "image_src": "debian-i3.png",
   "name": "lscr.io/linuxserver/webtop:debian-i3",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

@@ -4,6 +4,7 @@
   "image_src": "debian-mate.png",
   "name": "lscr.io/linuxserver/webtop:debian-mate",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

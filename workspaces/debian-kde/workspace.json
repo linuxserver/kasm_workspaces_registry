@@ -4,6 +4,7 @@
   "image_src": "debian-kde.png",
   "name": "lscr.io/linuxserver/webtop:debian-kde",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],

@@ -4,6 +4,7 @@
   "image_src": "debian-openbox.png",
   "name": "lscr.io/linuxserver/webtop:debian-openbox",
   "run_config": {
+    "security_opt": ["seccomp=unconfined"],
     "entrypoint": [
       "/kasminit"
     ],
