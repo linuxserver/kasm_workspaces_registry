@@ -8,7 +8,9 @@
       "/kasminit"
     ],
     "user": 1000,
-    "cap_add" : ["IPC_LOCK"]
+    "cap_add": [
+      "IPC_LOCK"
+    ]
   },
   "exec_config": {},
   "categories": [
@@ -20,7 +22,8 @@
     "arm64"
   ],
   "compatibility": [
-    "1.13.x"
+    "1.13.x",
+    "1.14.x"
   ],
   "uncompressed_size_mb": 2020
 }

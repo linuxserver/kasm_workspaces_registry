@@ -4,7 +4,9 @@
   "image_src": "kdenlive.png",
   "name": "lscr.io/linuxserver/kdenlive:latest",
   "run_config": {
-    "security_opt": ["seccomp=unconfined"],
+    "security_opt": [
+      "seccomp=unconfined"
+    ],
     "entrypoint": [
       "/kasminit"
     ],
@@ -20,7 +22,8 @@
     "arm64"
   ],
   "compatibility": [
-    "1.13.x"
+    "1.13.x",
+    "1.14.x"
   ],
-  "uncompressed_size_mb": 1880 
+  "uncompressed_size_mb": 1880
 }

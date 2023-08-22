@@ -4,7 +4,9 @@
   "image_src": "mullvad-browser.png",
   "name": "lscr.io/linuxserver/mullvad-browser:latest",
   "run_config": {
-    "security_opt": ["seccomp=unconfined"],
+    "security_opt": [
+      "seccomp=unconfined"
+    ],
     "entrypoint": [
       "/kasminit"
     ],
@@ -19,7 +21,8 @@
     "amd64"
   ],
   "compatibility": [
-    "1.13.x"
+    "1.13.x",
+    "1.14.x"
   ],
-  "uncompressed_size_mb": 2220 
+  "uncompressed_size_mb": 2220
 }

@@ -4,7 +4,9 @@
   "image_src": "arch-i3.png",
   "name": "lscr.io/linuxserver/webtop:arch-i3",
   "run_config": {
-    "security_opt": ["seccomp=unconfined"],
+    "security_opt": [
+      "seccomp=unconfined"
+    ],
     "entrypoint": [
       "/kasminit"
     ],
@@ -20,7 +22,8 @@
     "arm64"
   ],
   "compatibility": [
-    "1.13.x"
+    "1.13.x",
+    "1.14.x"
   ],
-  "uncompressed_size_mb": 2530 
+  "uncompressed_size_mb": 2530
 }
