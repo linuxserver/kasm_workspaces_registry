@@ -1,0 +1,26 @@
+{
+  "description": "Bambu Studio Bambu Studio is an open-source, cutting-edge, feature-rich slicing software. It contains project-based workflows, systematically optimized slicing algorithms, and an easy-to-use graphical interface, bringing users an incredibly smooth printing experience.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "bambustudio.png",
+  "name": "lscr.io/linuxserver/bambustudio:latest",
+  "run_config": {
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {},
+  "categories": [
+    "Productivity",
+    "Multimedia"
+  ],
+  "friendly_name": "Bambu Studio",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 3230
+}

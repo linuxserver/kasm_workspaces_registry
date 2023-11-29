@@ -1,0 +1,26 @@
+{
+  "description": "UltiMaker Cura is free, easy-to-use 3D printing software trusted by millions of users. Fine-tune your 3D model with 400+ settings for the best slicing and printing results.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "cura.png",
+  "name": "lscr.io/linuxserver/cura:latest",
+  "run_config": {
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {},
+  "categories": [
+    "Productivity",
+    "Multimedia"
+  ],
+  "friendly_name": "UltiMaker Cura",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 4210
+}
