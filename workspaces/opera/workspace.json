@@ -9,7 +9,14 @@
     ],
     "user": 1000
   },
-  "exec_config": {},
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c 'HOME=/home/kasm-user opera \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c 'HOME=/home/kasm-user opera \"$KASM_URL\"'"
+    }
+  },
   "categories": [
     "Browser"
   ],
