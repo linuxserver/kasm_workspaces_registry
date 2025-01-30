@@ -1,7 +1,7 @@
 const fs = require("fs");
 const glob = require("glob");
 
-const baseversion = '1.16'
+const baseversion = '1.17'
 const tag = ':develop'
 
 const version = baseversion + '.x'
@@ -28,14 +28,8 @@ glob("../workspaces/**/workspace.json", async function (err, files) {
 
 		let details = {
 			version,
-			image: image + tag,
-			uncompressed_size_mb: 0,
-			available_tags: [
-				'develop',
-				tagversion,
-				tagversion + '-rolling-weekly',
-				tagversion + '-rolling-daily'
-			]
+			image: current.image,
+			uncompressed_size_mb: current.uncompressed_size_mb,
 		}
 
 		if (exists === -1) {

@@ -25,6 +25,11 @@
       "version": "1.16.x",
       "image": "lscr.io/linuxserver/bambustudio:latest",
       "uncompressed_size_mb": 3230
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/bambustudio:latest",
+      "uncompressed_size_mb": 3230
     }
   ]
 }

@@ -28,6 +28,11 @@
       "version": "1.16.x",
       "image": "lscr.io/linuxserver/webtop:fedora-kde",
       "uncompressed_size_mb": 3040
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/webtop:fedora-kde",
+      "uncompressed_size_mb": 3040
     }
   ]
 }

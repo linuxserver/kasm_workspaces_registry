@@ -28,6 +28,11 @@
       "version": "1.16.x",
       "image": "lscr.io/linuxserver/kali-linux:latest",
       "uncompressed_size_mb": 9630
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/kali-linux:latest",
+      "uncompressed_size_mb": 9630
     }
   ]
 }

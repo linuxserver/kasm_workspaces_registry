@@ -27,6 +27,11 @@
       "version": "1.16.x",
       "image": "lscr.io/linuxserver/github-desktop:latest",
       "uncompressed_size_mb": 2480
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/github-desktop:latest",
+      "uncompressed_size_mb": 2480
     }
   ]
 }

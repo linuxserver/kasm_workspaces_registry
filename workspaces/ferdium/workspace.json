@@ -27,6 +27,11 @@
       "version": "1.16.x",
       "image": "lscr.io/linuxserver/ferdium:latest",
       "uncompressed_size_mb": 2320
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/ferdium:latest",
+      "uncompressed_size_mb": 2320
     }
   ]
 }

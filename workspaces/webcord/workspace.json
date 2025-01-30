@@ -25,6 +25,11 @@
       "version": "1.16.x",
       "image": "lscr.io/linuxserver/webcord:latest",
       "uncompressed_size_mb": 1970
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/webcord:latest",
+      "uncompressed_size_mb": 1970
     }
   ]
 }
