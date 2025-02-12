@@ -34,6 +34,11 @@
       "version": "1.16.x",
       "image": "lscr.io/linuxserver/ungoogled-chromium:latest",
       "uncompressed_size_mb": 2930
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/ungoogled-chromium:latest",
+      "uncompressed_size_mb": 2930
     }
   ]
 }

@@ -28,6 +28,11 @@
       "version": "1.16.x",
       "image": "lscr.io/linuxserver/webtop:ubuntu-i3",
       "uncompressed_size_mb": 1630
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/webtop:ubuntu-i3",
+      "uncompressed_size_mb": 1630
     }
   ]
 }

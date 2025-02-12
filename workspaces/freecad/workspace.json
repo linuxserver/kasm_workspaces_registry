@@ -28,6 +28,11 @@
       "version": "1.16.x",
       "image": "lscr.io/linuxserver/freecad:latest",
       "uncompressed_size_mb": 3650
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/freecad:latest",
+      "uncompressed_size_mb": 3650
     }
   ]
 }

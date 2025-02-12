@@ -28,6 +28,11 @@
       "version": "1.16.x",
       "image": "lscr.io/linuxserver/webtop:latest",
       "uncompressed_size_mb": 1460
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/webtop:latest",
+      "uncompressed_size_mb": 1460
     }
   ]
 }
