@@ -12,6 +12,7 @@ const nextConfig = {
   },
   reactStrictMode: true,
   basePath: '/1.0',
+  assetPrefix: '/1.0',
   trailingSlash: true,
   images: {
     unoptimized: true,
