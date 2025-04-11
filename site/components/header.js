@@ -2,7 +2,7 @@ import Bubbles from '../components/Bubbles'
 import Link from 'next/link'
 import { useRouter } from "next/router";
 import { NotificationManager } from 'react-notifications';
-import logo from '../public/logo.svg'
+import Image from 'next/image'
 
 export default function Header({ searchText, changeSearch }) {
 
@@ -23,7 +23,7 @@ export default function Header({ searchText, changeSearch }) {
       <Bubbles />
       <div className='relative z-10'>
         <div className="text-3xl">
-        <img src={logo.src} alt="LinuxServer.io" className="h-10" />
+        <Image src={"logo.svg"} alt="LinuxServer.io" className="h-10" />
         </div>
         <div className="text-sm uppercase w-full flex justify-between">
           <span className='opacity-70'>W</span>

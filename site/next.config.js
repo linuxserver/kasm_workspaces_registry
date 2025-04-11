@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  output: 'export',
+  distDir: '../public',
   env: {
     name: 'LinuxServer.io',
     description: 'Kasm workspaces provided by LSIO expertise',
@@ -9,7 +11,6 @@ const nextConfig = {
     contactUrl: 'https://discord.gg/YWrKVTn',
   },
   reactStrictMode: true,
-  swcMinify: true,
   basePath: '/1.0',
   trailingSlash: true,
   images: {
