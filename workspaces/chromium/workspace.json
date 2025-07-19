@@ -1,0 +1,45 @@
+{
+  "description": "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "chromium.png",
+  "run_config": {
+    "security_opt": [
+      "seccomp=unconfined"
+    ],
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000,
+    "environment": {
+      "HOME": "/home/kasm-user"
+    }
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c 'HOME=/home/kasm-user wrapped-chromium \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c 'HOME=/home/kasm-user wrapped-chromium \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Chromium",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "lscr.io/linuxserver/chromium:kasm",
+      "uncompressed_size_mb": 1250
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/chromium:kasm",
+      "uncompressed_size_mb": 1250
+    }
+  ]
+}
