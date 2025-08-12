@@ -30,6 +30,11 @@
       "version": "1.17.x",
       "image": "lscr.io/linuxserver/orcaslicer:latest",
       "uncompressed_size_mb": 3220
+    },
+    {
+      "version": "1.18.x",
+      "image": "lscr.io/linuxserver/orcaslicer:latest",
+      "uncompressed_size_mb": 3220
     }
   ]
 }

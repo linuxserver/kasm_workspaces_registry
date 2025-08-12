@@ -40,6 +40,11 @@
       "version": "1.17.x",
       "image": "lscr.io/linuxserver/firefox:kasm",
       "uncompressed_size_mb": 1230
+    },
+    {
+      "version": "1.18.x",
+      "image": "lscr.io/linuxserver/firefox:kasm",
+      "uncompressed_size_mb": 1230
     }
   ]
 }
